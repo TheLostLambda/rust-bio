@@ -3,6 +3,38 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [1.0.0](https://www.github.com/rust-bio/rust-bio/compare/v0.42.0...v1.0.0) (2022-09-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* update to latest ordered-float (#503)
+
+### Features
+
+* detect nested ORFs ([#501](https://www.github.com/rust-bio/rust-bio/issues/501)) ([19b6c36](https://www.github.com/rust-bio/rust-bio/commit/19b6c36bbea910eaaa0753a37e24b1389f31f527))
+
+
+### Bug Fixes
+
+* update to latest ordered-float ([#503](https://www.github.com/rust-bio/rust-bio/issues/503)) ([63fb752](https://www.github.com/rust-bio/rust-bio/commit/63fb752616bfb02791f10779cd37bc072487923e))
+
+## [0.42.0](https://www.github.com/rust-bio/rust-bio/compare/v0.41.0...v0.42.0) (2022-08-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update `strum` and `ordered-float` dependencies and change From<LogProb> into TryFrom<LogProb> for NotNan<f64>. (#491)
+
+### Features
+
+* Update `strum` and `ordered-float` dependencies and change From<LogProb> into TryFrom<LogProb> for NotNan<f64>. ([#491](https://www.github.com/rust-bio/rust-bio/issues/491)) ([57ccf8f](https://www.github.com/rust-bio/rust-bio/commit/57ccf8ff716416f7dbcba7f42a5e4369cea2fea0))
+
+
+### Miscellaneous Chores
+
+* widen range on statrs ([#499](https://www.github.com/rust-bio/rust-bio/issues/499)) ([0ff1e70](https://www.github.com/rust-bio/rust-bio/commit/0ff1e70cf5fee09f227c89316d62653c2414a8a0))
+
 ## [0.41.0](https://www.github.com/rust-bio/rust-bio/compare/v0.40.0...v0.41.0) (2022-03-30)
 
 
